@@ -15,6 +15,9 @@ const connect = function () {
     // }, 1000);
 
 })
+// conn.on("data", () => {
+  //   console.log("Move: up");
+  // });
 
   // interpret incoming data as text
   conn.setEncoding("utf8");
@@ -26,6 +29,6 @@ const connect = function () {
 };
 
 console.log("Connecting ...");
-connect();
+
 
 module.exports = {connect};
