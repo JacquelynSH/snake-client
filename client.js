@@ -12,15 +12,9 @@ const connect = function () {
     console.log("Name: JH");
     // setTimeout(() => {
     //   conn.write("Move: up")
-    // }, 1000):
+    // }, 1000);
 
-});
-
-
-
-  // conn.on("data", () => {
-  //   console.log("Move: up");
-  // });
+})
 
   // interpret incoming data as text
   conn.setEncoding("utf8");
@@ -29,10 +23,6 @@ const connect = function () {
       console.log('you ded cuz you idled');
       });
     return conn;
-
-
-
-
 };
 
 console.log("Connecting ...");
