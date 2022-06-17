@@ -1,7 +1,8 @@
+//imports the connect function from client.js
 const connect = require("./client.js");
 
 let connection;
-
+console.log(connection)
 const setupInput = (conn) => {
   connection = conn;
   const stdin = process.stdin;
